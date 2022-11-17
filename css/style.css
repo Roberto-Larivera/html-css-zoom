@@ -4,41 +4,10 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: gray;
-}
+
 /* HEADER */
-header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-}
-.conteiner-header{
-    min-height: 50px;
-    
-}
-.conteiner-header > div{
-    height: 100%;
-}
-.conteiner-header ul{
-    display: flex;
-    justify-content: flex-end;
-}
-.conteiner-header ul li{
-    padding: 15px;
-    list-style-type: none;
-    
-}
-.conteiner-header ul li a{
-    text-decoration: none;
-    color: white;
-}
+
 /* MAIN  */
-.container{
-    margin: 0 auto;
-    max-width: 1200px;
-}
 
 
 /* FOOTER  */
@@ -46,14 +15,4 @@ header{
 
 
 /* DEBUG */
-.debug header{
-    background-color: yellow;
-}
-.debug .conteiner-header{
-    background-color: aqua;
-}
-.debug .conteiner-header ul li a{
-    text-decoration: none;
-    color: black;
-}
-.debug 
+.debug

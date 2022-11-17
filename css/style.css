@@ -33,18 +33,40 @@ main .card-box{
     width: 300px;
 }
 /* FOOTER  */
-
-
+footer .footer-first{
+    height: 70px;
+    display: flex;
+}
+footer .mini-box{
+    width: 25%;
+}
+footer .maxi-box{
+    width: 50%;
+}
+footer .footer-first > div{
+    height: 100%;
+}
 
 /* DEBUG */
 .debug .border-red{
     border: 2px dashed orange;
 }
-.debug .header-first nav{
+
+
+.debug header .header-first nav{
     background-color: red;
     height: 100%;
     width: 100px;
 }
-.debug .card-box{
+
+
+.debug main .card-box{
     background-color: aquamarine;
 }
+
+
+.debug footer .mini-box{
+    background-color: lightcoral;
+}
+.debug footer .maxi-box{
+    background-color: lightcyan;

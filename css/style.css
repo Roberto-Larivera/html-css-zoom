@@ -6,7 +6,17 @@
 }
 
 /* HEADER */
-
+.header-first{
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+}
+.header-first nav{
+    
+}
+.header-first li{
+    list-style: none;
+}
 /* MAIN  */
 
 
@@ -15,4 +25,11 @@
 
 
 /* DEBUG */
-.debug
+.debug .border-red{
+    border: 2px dashed orange;
+}
+.debug .header-first nav{
+    background-color: red;
+    height: 100%;
+    width: 100px;
+}

@@ -57,14 +57,16 @@ main .flex-box{
 main .card-box{
     height: 150px;
     width: 300px;
-    
+    cursor: pointer;
     background-image:url( ../img/unsplash.jpeg );
     background-size: cover;
     
     position: relative;
     
 }
-
+main .card-box:hover{
+    background-image: url(../img/unsplash2.jpeg);
+}
 main .name-box{
     
     position: absolute;
@@ -83,8 +85,19 @@ main .flex-box .card-box a{
 main .flex-box .card-box a{
     text-decoration: none;
 }
-
-
+main .fa-microphone{
+    display: none ;
+}
+/* HOVER  */
+.name-box :hover > .fa-microphone{
+    display: inline-block;
+}
+.name-box :hover > .fa-microphone-slash{
+    display: none;
+}
+main .card-box a:hover{
+    text-decoration:underline;
+}
 /* FOOTER  */
 footer{
     width: 100vw;

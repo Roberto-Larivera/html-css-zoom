@@ -110,32 +110,38 @@ footer .footer-first{
 }
 footer .mini-box{
     width: 25%;
+
+    display: flex;
+
 }
 footer .maxi-box{
     width: 50%;
+
+    display: flex;
+    justify-content: center;
 }
 footer .footer-first > div{
     height: 100%;
 }
 
+footer .icon-minibox{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+footer .text-minibox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+footer .terzo-mini-box{
+    
+}
 
 /* DEBUG */
 .debug .border-red{
     border: 2px dashed orange;
-}
-
-
-/* .debug header .header-first nav{
-    background-color: red;
-    height: 100%;
-    width: 100px;
-} */
-
-
-.debug main .card-box{
-    /* background-image:url(https://picsum.photos/200/300) ; */
-    /* background-color: beige; */
 }
 
 

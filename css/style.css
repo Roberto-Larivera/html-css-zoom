@@ -6,20 +6,32 @@
 }
 
 /* HEADER */
-.header-first{
+header .header-first{
     height: 70px;
     display: flex;
     justify-content: flex-end;
 }
-.header-first nav{
+header .header-first nav{
     
 }
-.header-first li{
+header .header-first li{
     list-style: none;
 }
 /* MAIN  */
+main .container{
+    width: 80vw;
+    margin: 0 auto;
+}
+main .flex-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
-
+main .card-box{
+    height: 150px;
+    width: 300px;
+}
 /* FOOTER  */
 
 
@@ -32,4 +44,7 @@
     background-color: red;
     height: 100%;
     width: 100px;
+}
+.debug .card-box{
+    background-color: aquamarine;
 }

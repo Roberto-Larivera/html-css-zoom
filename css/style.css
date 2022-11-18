@@ -12,7 +12,8 @@ body{
 
 /* HEADER */
 header{
-    width: 100vw;
+    width: 100%;
+    /* width: 100vw; */
 }
 header .header-first{
     width: 100%;
@@ -49,9 +50,14 @@ header .header-first i:hover{
     color: greenyellow;
 }
 /* MAIN  */
-main .flex-box{
+main{
     height: calc(100vh - 130px);
     overflow: auto;
+}
+main .flex-box{
+    /* height: calc(100vh - 130px); */
+    
+
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -106,7 +112,8 @@ main .card-box a:hover{
 }
 /* FOOTER  */
 footer{
-    width: 100vw;
+    width: 100%;
+    /* width: 100vw; */
 }
 footer .footer-first{
     width: 100%;
